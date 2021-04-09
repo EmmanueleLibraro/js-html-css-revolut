@@ -11,7 +11,8 @@ body{
 
 .header-container{
     display: flex;
-    margin: 20px;
+    width: 1500px;
+    margin: 20px auto;
 }
 
 
@@ -35,7 +36,8 @@ body{
     transition: .3s;
 }
 
-.row-business a:hover{
+.row-business a:hover,
+.contacs-list a:hover{
     color: rgba(0, 0, 0, 1);
 }
 
@@ -43,6 +45,21 @@ body{
     width: 70px;
 }
 
+/* CONTACT-LIST */
+.contacs-list{
+    display: flex;
+    justify-content: end;
+}
+
+.contacs-list li {
+    list-style: none;
+}
+
+.contacs-list a{
+    text-decoration: none;
+    color: #717D87;
+    transition: .3s;
+}
 
 
 
