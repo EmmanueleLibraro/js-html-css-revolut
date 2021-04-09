@@ -20,6 +20,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 }
 
 /* BUSINESS-ROW */
@@ -37,7 +38,7 @@ body{
 }
 
 .row-business a:hover,
-.contacs-list a:hover{
+.contact-list a:hover{
     color: rgba(0, 0, 0, 1);
 }
 
@@ -49,6 +50,7 @@ body{
 .main-list{
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 
 .contact-list{
@@ -73,6 +75,7 @@ body{
     width: 115px;
     height: 43px;
     border-radius: 10px;
+    font-size: 15px;
     border: none;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
