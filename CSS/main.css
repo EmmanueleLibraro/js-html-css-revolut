@@ -1,0 +1,53 @@
+/* GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container{
+    display: flex;
+    margin: 20px;
+}
+
+
+.inside{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* BUSINESS-ROW */
+.row-business{
+     display: flex;
+     margin-left: 50px;
+     font-weight: 400;
+}
+
+.row-business a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #717D87;
+    transition: .3s;
+}
+
+.row-business a:hover{
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo-header img{
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
