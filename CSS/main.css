@@ -46,16 +46,21 @@ body{
 }
 
 /* CONTACT-LIST */
-.contacs-list{
+.main-list{
     display: flex;
-    justify-content: end;
 }
 
-.contacs-list li {
+.contact-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-list li {
     list-style: none;
 }
 
-.contacs-list a{
+.contact-list a{
+    margin-left: 20px;
     text-decoration: none;
     color: #717D87;
     transition: .3s;
