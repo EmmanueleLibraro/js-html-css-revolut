@@ -55,8 +55,7 @@ body{
 
 .contact-list{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    align-items: center; 
 }
 
 .contact-list li {
@@ -68,6 +67,52 @@ body{
     text-decoration: none;
     color: #717D87;
     transition: .3s;
+}
+
+/* TENDINA-LIST */
+.contact-list li.drop-down{
+    position: relative;
+}
+
+ .contact-list .drop-down-menu{                                              /* SERVE PER LA TENDINA A SCOMPARSA  */
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: -16px;
+    width: 150px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, .2));
+    background: #fff;
+    /* overflow: hidden;
+    /* overflow: scroll; */         /* SERVE PER LO SCROLL (PROVA)  */
+}
+
+.contact-list .drop-down-menu::before{                   /* SERVE PER IL QUADRATINO ROTATO DI 45 GRADI  */
+    content: "";
+    position: absolute;                            
+    width: 16px;
+    height: 16px;
+    top: -8px;
+    right: 30px;
+    transform: rotate(45deg);
+    background: #fff;
+
+}
+
+.contact-list .drop-down-menu li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #717D87;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.contact-list .drop-down-menu li:hover{
+    color: rgba(0, 0, 0, 1);;
 }
 
 /* BOTTONI  */
