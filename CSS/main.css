@@ -76,7 +76,7 @@ body{
 
  .contact-list .drop-down-menu{                                              /* SERVE PER LA TENDINA A SCOMPARSA  */
     position: absolute;
-    display: none;
+    display: none;    /* jQuery */
     top: 100%;
     right: -16px;
     width: 150px;
